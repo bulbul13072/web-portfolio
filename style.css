@@ -1,0 +1,39 @@
+h1 {
+    font-size: 50px;
+}
+body {
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+.highlight{
+    color: orange;
+}
+.half-width {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: justify;
+}
+ .half-width img {
+    float: right;
+    width: 100%;
+ }
+ .top-banner{
+     background-image: url(images/top-banner.png);
+ }
+ .regular-text{
+    font-family: 'Zilla Slab', serif;
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+@keyframes anim {
+    0%   {background-color:rgba(238, 92, 87, 0.5);}
+    25%  {background-color:rgba(208, 248, 28, 0.5);}
+    50%  {background-color: rgba(244, 252, 172, 0.5);}
+    75%  {background-color: rgba(59, 111, 253, 0.5);}
+    100% {background-color: rgba(240, 61, 6, 0.5);}
+  }
+  
